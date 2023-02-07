@@ -1,9 +1,14 @@
-h1{
-    color:#EC0BF3;
+h1 {
+  color: #ec0bf3;
 }
 
-body{
-    background-color:#04233B;
-    color:white;
+body {
+  background-color: #04233b;
+  color: white;
 }
 
+nav {
+  background-color: crimson;
+  color: white;
+  text-align: center;
+}
