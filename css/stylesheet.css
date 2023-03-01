@@ -1,35 +1,24 @@
-h1 {
-  color: #4fe51f;
-}
-
 body {
   background-color: #04233b;
   color: white;
 }
 
-header {
+.blog {
+  font-family: "Montserrat", sans-serif;
+  color: #4fe51f;
+  background-color: #730105;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #730105;
-  color: white;
   padding-bottom: 5px;
-}
-
-a:link {
-  color: #4fe51f;
 }
 
 a:visited {
   color: white;
 }
 
-.picture {
+.me {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.blog {
-  font-family: "Montserrat", sans-serif;
+  grid-template-rows: repeat(2 1fr);
 }
