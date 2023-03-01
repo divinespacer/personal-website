@@ -1,5 +1,5 @@
 h1 {
-  color: #ec0bf3;
+  color: #4fe51f;
 }
 
 body {
@@ -8,9 +8,20 @@ body {
 }
 
 header {
-  background-color: crimson;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #730105;
   color: white;
-  text-align: center;
+  padding-bottom: 5px;
+}
+
+a:link {
+  color: #4fe51f;
+}
+
+a:visited {
+  color: white;
 }
 
 .picture {
