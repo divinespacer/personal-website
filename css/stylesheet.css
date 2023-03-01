@@ -1,18 +1,18 @@
-h1 {
-  color: #ec0bf3;
-}
-
 body {
   background-color: #04233b;
   color: white;
 }
 
-nav {
-  background-color: crimson;
-  color: white;
-  text-align: center;
-}
-
 .blog {
   font-family: "Montserrat", sans-serif;
+  color: #4fe51f;
+  background-color: #730105;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+a:visited {
+  color: white;
 }
