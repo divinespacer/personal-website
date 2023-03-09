@@ -30,7 +30,7 @@ for (let item of courseList) {
   }
 }
 if (course_flag) {
-  new_course = { code: `ACIT ${course_code}`, name: null };
+  new_course = { code: course_code, name: null };
   courseList.push(new_course);
   console.log("SUCCCESS!");
 }
