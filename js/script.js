@@ -21,11 +21,18 @@ do {
   }
   alert("Please enter a valid course code");
 } while (true);
+let course_flag = true;
 
 for (let item of courseList) {
-  if (item.code == course_code) {
+  if (item["code"].includes(course_code)) {
     console.log(`Yes I am taking the ${item.code} - ${item.name}`);
+    course_flag = false;
   }
+}
+if (course_flag) {
+  new_course = { code: `ACIT ${course_code}`, name: null };
+  courseList.push(new_course);
+  console.log("SUCCCESS!");
 }
 // inclues()
 // indexOf()
